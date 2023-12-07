@@ -6,4 +6,14 @@ enum Type {
     Type(int strength) {
         this.strength = strength;
     }
+
+    public static Type getByValue(int targetValue) {
+        for (Type type : values()) {
+            if (type.strength == targetValue) {
+                return type;
+            }
+        }
+        // Handle the case when the value is not found
+        throw new IllegalArgumentException("No enum constant with value " + targetValue);
+    }
 }
