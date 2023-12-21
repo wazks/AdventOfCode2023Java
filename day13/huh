@@ -1,0 +1,17 @@
+// import java.util.ArrayList;
+       
+
+
+    // private int findVerticalReflection() {
+
+    // for (int i = 1; i < pattern.size(); i++) {
+    // for (int j = 0; j < pattern.size(); j++) {
+    // if (i + j > pattern.size() || i - j < 0)
+    // return i;
+    // if (pattern.get(i + j) != pattern.get(i - j))
+    // return 0;
+    // }
+    // }
+    // }
+
+}
